@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { services } from '../Constants/index'
 import { fadeIn, textVariant } from '../utils/motion'
 import { Tilt } from 'react-tilt'
-import { max } from 'three/webgpu'
+// import SectionWrapper from '../hoc/SectionWrapper'
 const About = () => {
   const ServiceCard = ({ index, title, icon }) => {
     return (
@@ -65,5 +65,7 @@ const About = () => {
     </>
   )
 }
-
 export default About
+
+// export default SectionWrapper
+// {About, "about"}
