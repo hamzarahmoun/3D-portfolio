@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old Ninja
+* source:	https://sketchfab.com/3d-models/old-ninja-c8bafb2697944af1897cad7a0f50e37a
+* author:	flioink (https://sketchfab.com/flioink)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old Ninja" (https://sketchfab.com/3d-models/old-ninja-c8bafb2697944af1897cad7a0f50e37a) by flioink (https://sketchfab.com/flioink) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

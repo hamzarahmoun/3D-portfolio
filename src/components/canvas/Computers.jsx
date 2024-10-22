@@ -4,7 +4,7 @@ import React, { Suspense, useEffect, useState } from 'react'
 import Loader from "../Loader";
 
 const Computers = ({isMobile}) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./old_ninja/scene.gltf");
   return (
     <mesh>
       <hemisphereLight intensity={2} groundColor='black' />
@@ -13,9 +13,9 @@ const Computers = ({isMobile}) => {
      
       <primitive
       object={computer.scene}
-      scale={isMobile ? 0.3 : 0.7}
-      position={isMobile? [0, -2, -0.5]:[0,-3.2,-1.5]}
-      rotation={[-0.01, -0.2, -0.1]}
+      scale={isMobile ? 0.3 : 2.5}
+      position={isMobile? [0, -2, -0.5]:[0,-0.5,-1]}
+      rotation={[0, -0.2, 0]}
       />
     </mesh>
   )
@@ -48,7 +48,7 @@ const ComputersCanvas = () =>{
     <Canvas
     frameloop='demand'
     shadows
-    camera={{position: [20,3,3] , fov: 25}}
+    camera={{position: [20,6,6] , fov: 12}}
     gl={{preserveDrawingBuffer:true}}
     >
       <Suspense fallback={<Loader/>}>
