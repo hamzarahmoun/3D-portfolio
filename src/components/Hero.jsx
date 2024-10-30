@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { styles } from '../styles'
-import ComputersCanvas from './Canvas/Computers'
+import ComputersCanvas from './canvas/Computers'
 import { motion } from "framer-motion";
 
 const Hero = () => {
