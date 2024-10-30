@@ -1,6 +1,6 @@
 import React from 'react'
-import {BallCanvas} from './Canvas'
-import SectionWrapper from '../Hoc/SectionWrapper'
+import {BallCanvas} from './canvas'
+import SectionWrapper from '../hoc/SectionWrapper'
 import {technologies} from '../Constants'
 import { div } from 'framer-motion/client'
 
