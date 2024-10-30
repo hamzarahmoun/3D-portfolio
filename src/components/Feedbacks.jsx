@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import SectionWrapper from '../hoc/SectionWrapper'
 import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { testimonials } from "../Constants";
 
 const Feedbacks = () => {
   const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => {
